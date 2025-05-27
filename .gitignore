@@ -8,6 +8,10 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+.env
+/.env
+env
+/env
 
 # production
 dist

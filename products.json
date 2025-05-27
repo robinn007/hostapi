@@ -1,0 +1,65 @@
+[
+    {
+        "name": "iphone", 
+        "price": 999,   
+        "featured": true,
+        "rating": 4.8,
+         "company": "apple"
+    },
+
+    {
+        "name": "galaxy", 
+        "price": 899,   
+        "featured": true,
+        "rating": 4.7,
+         "company": "samsung"
+    },
+
+    {
+        "name": "Sony WH-1000XM5", 
+        "price": 349,   
+        "featured": false,
+        "rating": 4.6,
+         "company": "sony"
+    },
+
+    {
+        "name": "Google Pixel 7", 
+        "price": 599,   
+        "featured": true,
+        "rating": 4.5,
+         "company": "google"
+    },
+
+    {
+        "name": "iphone14", 
+        "price": 1999,   
+        "featured": true,
+        "rating": 4.9,
+         "company": "apple"
+    },
+
+    {
+        "name": "Samsung Galaxy Tab S8", 
+        "price": 699,   
+        "featured": false,
+        "rating": 4.4,
+         "company": "samsung"
+    },
+
+    {
+        "name": "Sony PlayStation 5", 
+        "price": 499,   
+        "featured": true,
+        "rating": 4.8,
+         "company": "sony"
+    },
+
+    {
+        "name": "Google Nest Hub", 
+        "price": 99,   
+        "featured": false,
+        "rating": 4.3,
+         "company": "google"
+    }
+]

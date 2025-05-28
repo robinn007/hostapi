@@ -28,4 +28,14 @@ const getAllProductsTesting = async(req, res) => {
     res.status(200).json({ myData });
 }
 
-module.exports = {getAllProducts, getAllProductsTesting}; 
+const addProduct = async (req, res) => {
+    try {
+        const newProduct = new Product(req.body);
+        const savedProduct = await newProduct.save();
+        res.status(201).json(savedProduct);
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+};
+
+module.exports = { getAllProducts, getAllProductsTesting, addProduct };
